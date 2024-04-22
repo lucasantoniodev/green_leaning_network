@@ -16,7 +16,7 @@ class _PostHeaderComponentState extends State<PostHeaderComponent> {
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         Padding(
-          padding: const EdgeInsets.symmetric(vertical: 4, horizontal: 8),
+          padding: const EdgeInsets.all(8),
           child: Row(
             children: [
               CircleAvatar(
